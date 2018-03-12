@@ -1,4 +1,4 @@
-== PURPOSE & USAGE ==
+## PURPOSE & USAGE 
 
 Interactive shell with X11 forwarding for SLURM.
 
@@ -8,12 +8,12 @@ When your job starts, you'll find yourself usng an interactive shell which has
 proper X11 forwarding enabled.
 
 
-== Author & Credits ==
+## Author & Credits
 
 Scripts were written by  Pär Andersson (National Supercomputer Centre, Sweden)
 and published in the SLURM FAQ.
 
-==
+---
 
 After forking from https://github.com/jbornschein/srun.x11 Stefan Oslowski added
 tiny tweaks to adjust these scripts for the OzStar supercomputer.
