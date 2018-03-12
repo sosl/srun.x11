@@ -1,0 +1,11 @@
+# screenrc by Stefan Oslowski
+term screen-256color
+attrcolor b ".I"
+
+defscrollback 10000
+
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+
+# remove full screen programs from the scrollback history just like it is the case when not running screen:
+altscreen on
